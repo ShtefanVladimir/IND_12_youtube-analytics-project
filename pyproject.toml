@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ind-12-youtube-analytics-project"
+version = "0.1.0"
+description = ""
+authors = ["Vladimir Shtefan <vladimir.shtefan@skyeng.ru>"]
+readme = "README.md"
+packages = [{include = "ind_12_youtube_analytics_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-api-python-client = "^2.91.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
