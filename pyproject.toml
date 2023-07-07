@@ -9,6 +9,7 @@ packages = [{include = "ind_12_youtube_analytics_project"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 google-api-python-client = "^2.91.0"
+flake8 = "^6.0.0"
 
 
 [build-system]
